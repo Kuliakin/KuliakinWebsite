@@ -6,7 +6,7 @@ export default function Home() {
     <main className={styles.main}>
       <h1>Deploy test</h1>
       <Image
-        className="content"
+        className={styles.content}
         src="/chill.jpg"
         alt="image unvailable"
         width={500}

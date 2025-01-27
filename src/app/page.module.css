@@ -6,3 +6,10 @@
   padding: 6rem;
   min-height: 100vh;
 }
+
+.content {
+  object-fit: contain;
+  @media screen and (max-width: 767px) {
+    width: 320px;
+  }
+}
